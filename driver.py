@@ -79,7 +79,7 @@ browser.get("https://app.itpro.tv/login/")
 browser.get(url)
 
 print("Executing for " + url)
-time.sleep(5)
+time.sleep(2)
 print('* Trying to log in ... *')
 
 try:
@@ -94,7 +94,7 @@ except Exception as e:
     raise e
 
 browser.get(url)
-time.sleep(5)
+time.sleep(2)
 html = browser.page_source
 parsed_html = BeautifulSoup(html, 'html5lib')
 
@@ -115,7 +115,7 @@ print("Course name detected as " + course_name)
 
 browser.execute_script("return document.querySelectorAll('.notCurrentTopic').forEach(e => e.click())")
 
-time.sleep(10)
+time.sleep(2)
 
 parsed_html = BeautifulSoup(browser.page_source, 'html5lib')
 
@@ -131,7 +131,7 @@ for index, lesson_url in enumerate(lesson_urls):
     browser.get(lesson_url)
     temp_html = browser.page_source
     temp_parsed_html = BeautifulSoup(temp_html, 'html5lib')
-    time.sleep(10)
+    time.sleep(2)
     while True:
         try:
             lessons.append(browser.execute_script("return document.getElementsByTagName('video')[0].src"))
