@@ -131,7 +131,7 @@ for index, lesson_url in enumerate(lesson_urls):
     browser.get(lesson_url)
     temp_html = browser.page_source
     temp_parsed_html = BeautifulSoup(temp_html, 'html5lib')
-    time.sleep(2)
+    time.sleep(1)
     while True:
         try:
             lessons.append(browser.execute_script("return document.getElementsByTagName('video')[0].src"))
