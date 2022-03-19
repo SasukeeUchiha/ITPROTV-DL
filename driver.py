@@ -60,7 +60,7 @@ chrome_options.add_argument('--disable-dev-shm-usage')
 
 if platform.system() == 'Linux':
     if os.path.exists("/usr/bin/chromedriver"):
-        browser = webdriver.Chrome(executable_path="/usr/bin/chromedriver",
+        browser = webdriver.Chrome("/usr/bin/chromedriver",
                                    options=chrome_options)
     else:
         print("Chromedriver not found; expected path '/usr/bin/chromedriver'")
