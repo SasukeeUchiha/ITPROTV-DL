@@ -14,7 +14,7 @@
 - Selenium - https://pypi.org/project/selenium/
 - tqdm - https://pypi.org/project/tqdm/
 - ChromeDriver - http://chromedriver.chromium.org/
-- Get cookies.txt - https://bit.ly/GoogleChrome-GetCookiesTxt
+- Get cookies.txt - Or Any alternative cookie export extension
 - Active subscription on itpro.tv
 
 ### Usage
