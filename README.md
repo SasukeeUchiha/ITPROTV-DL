@@ -5,7 +5,7 @@
 [![Badge License]][License]   
 [![Badge Likes]][#]
 
-[ <br>  <br> ][KBD]
+[][KBD]
 
 </div>
 
