@@ -11,9 +11,7 @@
 <br>
 <br>
 
-[<kbd> <br> KeyBinding Button <br> </kbd>][KBD]
-
-[![Button Shield]][Shield]
+[<kbd> <br><br> </kbd>][KBD]
 
 </div>
 
