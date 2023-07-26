@@ -1,7 +1,7 @@
 <br>
 
-<div align = center>
-
+<div >
+<a href="https://www.buymeacoffee.com/Tommi"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a Coffeec&emoji=☕&slug=Tommi&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" /></a>
 [![Badge License]][License]   
 [![Badge Likes]][#]
 
@@ -32,8 +32,6 @@
 
 [Badge License]: https://img.shields.io/badge/-BY_SA_4.0-ae6c18.svg?style=for-the-badge&labelColor=EF9421&logoColor=white&logo=CreativeCommons
 [Badge Likes]: https://img.shields.io/github/stars/MarkedDown/Buttons?style=for-the-badge&labelColor=d0ab23&color=b0901e&logoColor=white&logo=Trustpilot
-
-<a href="https://www.buymeacoffee.com/Tommi"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a Coffeec&emoji=☕&slug=Tommi&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" /></a>
 
 
 
