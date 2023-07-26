@@ -13,8 +13,6 @@
 
 [<kbd> <br>  <br> </kbd>][KBD]
 
-[![Button Shield]][Shield]
-
 </div>
 
 <br>
