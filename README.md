@@ -7,15 +7,11 @@
 
 <br>
 <br>
-    
-# Buttons
-         
-**Links  ➞  Buttons**
 
 <br>
 <br>
 
-[<kbd> <br> KeyBinding Button <br> </kbd>][KBD]
+[<kbd> <br>  <br> </kbd>][KBD]
 
 [![Button Shield]][Shield]
 
