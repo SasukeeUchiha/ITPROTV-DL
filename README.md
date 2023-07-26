@@ -11,7 +11,7 @@
 <br>
 <br>
 
-[<kbd> <br>  <br> </kbd>][KBD]
+[ <br>  <br> ][KBD]
 
 </div>
 
