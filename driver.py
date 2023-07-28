@@ -10,6 +10,7 @@ import time
 import requests
 from bs4 import BeautifulSoup
 from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from tqdm import tqdm
 
@@ -46,7 +47,7 @@ headers = {
     'User-Agent': user_agent
 }
 
-chrome_options = Options()
+chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument(f'user-agent={user_agent}')
 chrome_options.add_argument('--disable-extensions')
 chrome_options.add_argument('--no-sandbox')
@@ -57,11 +58,11 @@ chrome_options.add_argument('--allow-running-insecure-content')
 chrome_options.add_experimental_option("excludeSwitches", ["enable-logging"])
 chrome_options.add_argument('--headless')
 chrome_options.add_argument('--disable-dev-shm-usage')
+s = Service('/usr/bin/chromedriver')
 
 if platform.system() == 'Linux':
     if os.path.exists("/usr/bin/chromedriver"):
-        browser = webdriver.Chrome("/usr/bin/chromedriver",
-                                   options=chrome_options)
+        browser = webdriver.Chrome(service=s, options=chrome_options)
     else:
         print("Chromedriver not found; expected path '/usr/bin/chromedriver'")
         exit(1)
@@ -75,7 +76,7 @@ else:
 
 browser.set_page_load_timeout(10000)
 browser.maximize_window()
-browser.get("https://app.itpro.tv/login/")
+browser.get("https://app.acilearning.com/login")
 browser.get(url)
 
 print("Executing for " + url)

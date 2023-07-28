@@ -1,7 +1,9 @@
+<a href="https://www.buymeacoffee.com/Tommi"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a Coffeec&emoji=☕&slug=Tommi&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" /></a>
+
 # Download videos from ITPROTV / ITPROTV-DL
 
 ###### Python script to download videos from your ITPROTV account for offline viewing
-
+###### Updated to work in 2023
 ![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)
 
 ![ITPROTV-DL](https://i.imgur.com/iW2ilOD.png)
@@ -14,7 +16,7 @@
 - Selenium - https://pypi.org/project/selenium/
 - tqdm - https://pypi.org/project/tqdm/
 - ChromeDriver - http://chromedriver.chromium.org/
-- Get cookies.txt - https://bit.ly/GoogleChrome-GetCookiesTxt
+- Get cookies.txt - Or Any alternative cookie export extension
 - Active subscription on itpro.tv
 
 ### Usage
@@ -35,6 +37,7 @@
 >>> python driver.py course_link
 ```
 
+#### Script Makers Donate link
 I'd be gratified to have your support - 
 
 [<img src="https://i.imgur.com/ngduQd7.png">](https://www.buymeacoffee.com/RahulShaw)
